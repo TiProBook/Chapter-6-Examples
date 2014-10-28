@@ -55,6 +55,7 @@
 	</mobileweb>
 	<modules>
 		<module platform="iphone">org.beuckman.tibeacons</module>
+		<module platform="android">com.liferay.beacons</module>
 	</modules>
 	<deployment-targets>
 		<target device="android">true</target>
