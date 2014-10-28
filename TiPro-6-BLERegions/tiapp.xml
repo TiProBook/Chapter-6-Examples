@@ -15,6 +15,10 @@
 	<ios>
 		<plist>
 			<dict>
+				<key>NSLocationWhenInUseUsageDescription</key>
+      			<string>
+        		Sample: We respect your privacy and only need to use your location when the app is open so that we can offer you a discount on your purchase.
+      			</string>
 				<key>UISupportedInterfaceOrientations~iphone</key>
 				<array>
 					<string>UIInterfaceOrientationPortrait</string>
