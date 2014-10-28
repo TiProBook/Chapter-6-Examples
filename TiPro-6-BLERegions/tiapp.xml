@@ -54,6 +54,7 @@
 		<theme>default</theme>
 	</mobileweb>
 	<modules>
+		<module platform="iphone">org.beuckman.tibeacons</module>
 	</modules>
 	<deployment-targets>
 		<target device="android">true</target>
