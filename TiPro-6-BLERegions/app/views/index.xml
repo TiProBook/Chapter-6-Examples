@@ -1,5 +1,9 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label">Touch me to check bluetooth status and if on, broadcast as a beacon.</Label>
+	<Window id="wrapper">
+		<Label id="broadcastLabel"></Label>
+		<Button id="broadcastButton"></Button>
+		<Button id="requestButton"></Button>
+		<Label id="monitorLabel"></Label>
+		<Button id="monitorButton"></Button>
 	</Window>
 </Alloy>

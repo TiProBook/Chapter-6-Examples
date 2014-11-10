@@ -1,15 +1,21 @@
-".container": {
-	backgroundColor:"white"
+"#wrapper":{
+	layout: "vertical",
+	backgroundColor: "#ffffff"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+"Label":{
+	font: 14,
+	height: 50, width: 300, top: 30
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+"#broadcastButton":{
+	title: "Broadcast as a Beacon"
+}
+
+"#requestButton":{
+	title: "Request Permissions"
+}
+
+"#monitorButton":{
+	title: "Monitor a Region"
 }
